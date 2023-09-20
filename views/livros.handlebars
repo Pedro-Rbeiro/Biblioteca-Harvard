@@ -1,0 +1,18 @@
+<section>
+  <div class="container-section">
+
+    <div class="container-site">
+      {{#if queryLength}}
+      {{#each query}}
+      {{> bookPartials}}
+      {{/each}}
+      {{else}}
+      <div class="container-flex">
+        <div class="container-partial">
+          <h1 class="bold">NENHUM LIVRO ENCONTRADO</h1>
+          {{/if}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,24 @@
+<div class="section-container">
+  <form class="form-register font-size18 bold700" action="/save" method="post">
+    <h1>Cadastro de livros</h1>
+    <label for="">Nome do livro</label>
+    <input class="font-size16" type="text" name="nome_livro">
+
+    <label for="">Id do autor</label>
+    <input class="font-size16" type="number" name="autor">
+
+    <label for="">Genero</label>
+    <select class="font-size16" name="genero" id="">
+      <option value="Romance">Romance</option>
+      <option value="Terror">Terror</option>
+      <option value="Ficcção cientifica">Ficção cientifica</option>
+      <option value="Conto">Conto</option>
+      <option value="Outros">Outros</option>
+    </select>
+
+    <label for="">Data de lançamento</label>
+    <input class="font-size16" name="releaseDate" type="date">
+
+    <button class="bold700 font-size16 btn-register" type="submit">Registrar</button>
+  </form>
+</div>

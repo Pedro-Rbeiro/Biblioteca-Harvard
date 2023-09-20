@@ -1,0 +1,17 @@
+<div>
+
+  <div class="container-flex">
+
+    <div class="container-partial">
+      <h1>DESEJA EXCLUIR?</h1>
+      <h1>Nome do livro: {{choicedBook.nome}}</h1>
+      <p><span class="bold700">Autor:</span> {{choicedBook.nome_author}}</p>
+      <p><span class="bold700">Genero: </span> {{choicedBook.genero}}</p>
+      <p><span class="bold700">Data de lançamento: </span> {{choicedBook.data_publicacao}}</p>
+      <div class="del-delete">
+        <a href="/books/yes/{{choicedBook.id}}" class="delete-btn bold700">SIM</a>
+        <a href="/books/" class="delete-btn bold700">NÃO</a>
+      </div>
+    </div>
+  </div>
+</div>
